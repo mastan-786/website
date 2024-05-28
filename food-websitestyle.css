@@ -1,0 +1,112 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home{
+    background-image: url("images/7197355.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+
+    background-color: chartreuse;
+    color:white;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 8%;
+    background:transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+.logo{
+    font-size:25px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+     background-color: bisque;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    margin:0 20px;
+    transistion:.3s;
+
+}
+.navbar a:hover{
+    color:white;
+}
+.social-media{
+    diaplay:flex;
+    justify-content: space-between;
+    width:300px;
+    height:40px;
+    
+
+}
+.social-media a{
+    align-items:center;
+    justify-content: center;
+    display:inline-flex;
+    width:40px;
+    height:40px;
+    background:transparent;
+    border:2px solid white;
+    text-decoration:none;
+}
+.social-media a i{
+    font-size:24px;
+    color:red;
+}
+.social-media a:hover{
+    border-color: blue;
+}
+.home{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:50px;
+
+}
+.color{
+    color:beige
+}
+.child{
+    background-color: chartreuse;
+}
+.child2{
+    background-color: blueviolet;
+}
+.child3{
+    background-color: cadetblue;
+}
+
+.music{
+     background-color: rgb(226, 211, 43);
+     color:white;
+     
+}
+#hello{
+    text-decoration-style: none;
+}
+.header img{
+    float:left;
+    height:80px;
+    width:80px;
+   margin-right: 70px;
+}
+.form-group{
+    text-align: center;
+}
+.marquee{
+    position:sticky;
+    top:0;
+    
+}
